@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procenty TATA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png"
+</head>
+<body>
+    <div class="box">
+        <h1>Strona do liczenia ocen</h1>
+        Punkty ucznia:
+        <input type="number" id="uczen" min="0" tabindex="1" onkeydown="if(event.key==='Enter') policz()"><br>
+
+        Punkty max:
+        <input type="number" id="max" min="1" tabindex="-1"><br>
+        <button onclick="policz()" tabindex="2">Policz</button>
+        <p id="wynik">Wynik</p>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

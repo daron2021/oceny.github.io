@@ -1,0 +1,68 @@
+h1{
+    color: rgb(255, 233, 90);
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(91, 80, 255), rgb(45, 130, 199));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.box{
+    padding: 90px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: left;
+    color: wheat;
+}
+input{
+    color: black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 60px;
+    margin-left: 10px;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+p{
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+}
+button{
+    width: 100%;
+
+    margin-top: 10px;
+    padding: 10px 20px;
+
+    background: linear-gradient(135deg, #ffd700, #ffb700);
+    color: black;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+button:hover{
+    transform: scale(1.10);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+button:active{
+    transform: scale(0.98);
+}
